@@ -1,0 +1,55 @@
+/* pages/login/getUserInfo.wxss */
+.getinfo{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.getinfo .getinfo-img{
+  overflow: hidden;
+  width: 180rpx;
+  height: 180rpx;
+  margin-top: 120rpx;
+  border-radius: 100%;
+  /* background-color: #f90; */
+}
+.getinfo .line{
+  width: 580rpx;
+  height: 1px;
+  margin: 60rpx 0 80rpx;
+  border-radius: 1px;
+  background-color: #ececec;
+}
+.getinfo .title{
+  margin-bottom: 32rpx;
+  font-size: 34rpx;
+  color: #333;
+  font-weight: 500;
+}
+.getinfo .subtitle{
+  font-size: 26rpx;
+  color: #999;
+  margin-bottom: 120rpx;
+}
+.getinfo .subtitle1{
+  font-size: 26rpx;
+  color: #999;
+  margin-bottom: 10rpx;
+}
+.getinfo .getinfo-btn{
+  width: 580rpx;
+  height: 88rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  color: #fff;
+  border-radius: 44rpx;
+  background-color: #795548;
+  font-weight: 500;
+}
+button[plain]{
+  border:0px;
+  margin-left:0rpx;
+  color:#525252; 
+  font-family:PingFangSC;
+  
+}

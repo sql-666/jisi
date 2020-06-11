@@ -1,0 +1,53 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/respectD/respectD",
+    "pages/test/test",
+    "pages/respectDetail/respectDetail",
+    "pages/respects/respects",
+    "pages/addRespect/addRespect",
+    "pages/favorite/favorite",
+    "pages/myCreate/myCreate",
+    "pages/add/add",
+    "pages/getUserInfo/getUserInfo",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/log/log"  
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#795548",
+    "navigationBarTitleText": "缅怀逝者",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#6B7374",
+    "selectedColor": "#795548",
+    "borderStyle": "white",
+    "backgroundColor": "#F6F7F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/menu_imgs/home_gray.png",
+        "selectedIconPath": "static/menu_imgs/home.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "static/menu_imgs/search_gray.png",
+        "selectedIconPath": "static/menu_imgs/search.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/menu_imgs/me_gray.png",
+        "selectedIconPath": "static/menu_imgs/me.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

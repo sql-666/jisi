@@ -1,0 +1,138 @@
+/* pages/respectD/respectD.wxss */
+page{
+  /* background-image: url(http://yjs.anei10.com/image/bg.jpg) */
+}
+
+.bg{
+  width: 100%;
+  
+}
+
+.kuang, .lwl{
+ position: absolute;
+ top: 110rpx;
+ width: 25%;
+ left: 37%;
+}
+.lwl{
+  top: 128rpx;
+  width: 21%;
+  left: 39%;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  background-color: #BDBDBD;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+  justify-content: space-around
+}
+.Home image{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 10rpx
+}
+.Home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+.Home text{
+  font-size: 25rpx;
+}
+
+.btn, .share_btn{
+  width: 160rpx;
+  height: 70rpx;
+  background-color: #DD2C00;
+  border-radius: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+.share_btn{
+  font-weight: 300;
+  width: 130rpx;
+}
+
+
+text{
+  font-size: 28rpx;
+}
+.wrap-btn{
+  width: 500rpx;
+  margin-left: 60rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.wrap-btn text{
+  font-size: 25rpx;
+}
+
+.middle{
+  position: absolute;
+  top:850rpx;
+  left: 30rpx;
+  display: flex;
+  text-align: center;
+}
+
+.middle text{
+  font-size: 20rpx;
+}
+
+.ge{
+  display: flex;
+  margin: 10rpx;
+  border: 1rpx solid #795548;
+  border-radius: 10rpx;
+}
+
+.xge{
+  background-color: #795548;
+  color: white;
+  height: 50rpx;
+  width: 70rpx;
+}
+
+.number{
+  width: 80rpx;
+}
+/* 文字滚动 */
+.swiper-box{
+  position: absolute;
+  height: 80rpx;
+  line-height: 80rpx;
+  overflow: hidden;
+  bottom: 60px;
+  width: 100%;
+  padding: 0 40rpx
+}
+.swiper-box .item{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+}
+
+.info image{
+  width: 45rpx;
+  height: 45rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+.info text{
+  font-size: 23rpx;
+
+}

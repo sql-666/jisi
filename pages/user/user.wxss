@@ -1,0 +1,42 @@
+/* pages/user/user.wxss */
+
+.head{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: 10rpx solid whitesmoke;
+}
+
+
+
+.head image{
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+}
+
+.list{
+  background-color: white;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+
+.item{
+  display: flex;
+  align-items: center
+}
+
+.item image{
+  height: 40rpx;
+  width: 40rpx;
+  margin: 10rpx;
+}
+
+.xian{
+  border-bottom: 1rpx solid whitesmoke;
+  width: 80%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+
+}

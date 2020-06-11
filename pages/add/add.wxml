@@ -1,0 +1,36 @@
+<!--pages/add/add.wxml-->
+<form>
+  <view class='bt'>
+    <input placeholder="输入馆名"></input>
+  </view>
+  <view class='description'>
+    <textarea placeholder="说明....."></textarea>
+  </view>
+
+  <view class="ma">
+    <view class="private">
+      <switch type="checkbox" checked="false" bindchange="" />
+      <text>是否公开</text>
+    </view>
+    <view>
+      <input placeholder="输入邀请码（6-10位数字）"></input>
+    </view>
+  </view>
+  <view class='note'>
+    <text>注意:不公开的馆子，用户需要输入邀请码才能进入，公开的馆子，任何人都可进入</text>
+
+  </view>
+  <view class='addRespects' bindtap="addRespect" wx:if='{{rooter=="1"}}'>
+    <image src='/static/menu_imgs/add.png'></image>
+    <text>添加逝者</text>
+
+  </view>
+
+  <view class='footer' bindtap="submit">
+    <text>提交</text>
+  </view>
+
+
+
+
+</form>

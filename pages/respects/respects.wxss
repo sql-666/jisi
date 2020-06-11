@@ -1,0 +1,73 @@
+/* pages/respects/respects.wxss */
+.fav-btn{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 150rpx;
+  right: 50rpx;
+  justify-content: center;
+  box-shadow: 6px 6px 3px #888888;
+
+}
+
+.fav-btn image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.respect_img{
+width: 153rpx;
+height: 200rpx;
+margin-right: 20rpx;
+}
+
+.right image{
+  width: 35rpx;
+  height: 35rpx;
+  margin: 0 10rpx;
+}
+
+page{
+  background-color: whitesmoke;
+}
+
+.wrap-item{
+  display: flex;
+  width: 95%;
+  height: 300rpx;
+  margin-left: 2.5%;
+  background-color: white;
+  border-radius: 20rpx;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rpx;
+}
+
+.right{
+  width:60%;
+}
+
+.bt{
+  font-weight: 600;
+  margin-bottom: 20rpx
+}
+.info-item text{
+  font-size: 25rpx;
+}
+
+.icon-text{
+  display: flex
+}
+.icon-text text{
+  
+  width: 120rpx;
+  color: #9E9E9E;
+}
+
+.info-item{
+  display: flex;
+  align-items: center;
+}

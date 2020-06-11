@@ -1,0 +1,17 @@
+<!--pages/login/getUserInfo.wxml-->
+
+<!-- <view class="iclass">
+  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权</button>
+</view> -->
+
+<view class='getinfo'>
+  <!-- <image src="" class='getinfo-img'></image> -->
+  <open-data type="userAvatarUrl" class='getinfo-img'></open-data>
+  <view class='line'></view>
+  <view class='title'>
+    <button class="list-text" open-type="share" plain='{{true}}'>申请获取以下信息</button>
+  </view>
+  <view class='subtitle1'>本程序只获取你的公开信息(如微信头像、昵称等)</view>
+   <view class='subtitle'>不会获取您的敏感信息，请放心使用</view>
+  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class='getinfo-btn'>点击登录</button>
+</view>

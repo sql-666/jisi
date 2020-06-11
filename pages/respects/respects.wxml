@@ -1,0 +1,54 @@
+<!--pages/respects/respects.wxml-->
+<view class='list'>
+
+  <view class="wrap-item" bindtap="toDetail" wx:for='{{list}}'>
+    <image class="respect_img" src='/static/index_img/lwl.png'></image>
+    <view class="right">
+    <view class="bt">
+      <text>李文亮医生</text>
+    </view>
+      <view class="info">
+        <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/lazhu.png'></image>
+            <text>上香数:</text>
+          </view>
+          
+            <text>2586</text>
+          
+        </view>
+
+        <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/flower.png'></image>
+            <text>献花数:</text>
+          </view>
+            <text>2586</text>
+        </view>
+             <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/flower.png'></image>
+            <text>享年:</text>
+          </view>
+   
+            <text>38</text>
+         
+        </view>
+             <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/flower.png'></image>
+            <text>逝世时间:</text>
+          </view>
+        
+            <text>2020-3-1</text>
+         
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="fav-btn"  bindtap="toFav">
+<image wx:if='{{fav}}' src='/static/menu_imgs/star-o.png' ></image>
+<image wx:else src='/static/menu_imgs/star.png'></image>
+</view>

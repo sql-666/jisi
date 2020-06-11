@@ -1,0 +1,42 @@
+<!--pages/addRespect/addRespect.wxml-->
+<view class="wrap">
+  <view class='img'>
+    <image></image>
+    <view class='btn'>
+      <text>选择照片</text>
+    </view>
+  </view>
+  <view class='name'>
+    <input placeholder="请输入姓名 "></input>
+  </view>
+
+  <radio-group class="radio-group ">
+    <radio class="radio " checked="true ">
+      <text>男</text>
+    </radio>
+    <radio class="radio ">
+      <text>女</text>
+    </radio>
+  </radio-group>
+
+  <view class="gender">
+    <input placeholder="请输入年龄 "></input>
+  </view>
+  <view class="time">
+    <input placeholder="请输入逝世日期 "></input>
+  </view>
+  <view class="note">
+    <textarea placeholder="请输入生平简介(最多500字)"></textarea>
+  </view>
+
+  <view class='imgGroup'>
+    <text>照片(最多2张)</text>
+    <image></image>
+  </view>
+
+
+</view>
+
+<view class='footer'>
+    <text>提交</text>
+  </view>

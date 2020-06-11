@@ -1,0 +1,72 @@
+<!--pages/respectD/respectD.wxml-->
+
+<image src='/static/kuang.png' class="kuang" style="height:{{windowHeight*0.20}}px"></image>
+<image src='/static/index_img/lwl.png' class='lwl' style="height:{{windowHeight*0.17}}px"></image>
+
+
+
+<view class="middle">
+  <view class="ge" bindtap="tocontribution" data-type='献蜡烛'>
+    <view class="xge">
+      <text>蜡烛</text>
+    </view>
+    <view class="number">
+      <text>1234</text>
+    </view>
+  </view>
+  <view class="ge" bindtap="tocontribution" data-type='烧纸钱'>
+    <view class="xge">
+      <text>纸钱</text>
+    </view>
+    <view class="number">
+      <text>1234</text>
+    </view>
+  </view>
+  <view class="ge" bindtap="tocontribution" data-type='上香'>
+     <view class="xge">
+      <text>上香</text>
+    </view>
+    <view class="number">
+      <text>1234</text>
+    </view>
+  </view>
+  <view class="ge" bindtap="tocontribution" data-type='献鲜花'>
+     <view class="xge">
+      <text>鲜花</text>
+    </view>
+    <view class="number">
+      <text>1234</text>
+    </view>
+  </view>
+</view>
+
+<!-- 文字滚动 -->
+<swiper class='swiper-box' autoplay='{{true}}' interval='2000' vertical='{{true}}' circular='{{true}}'>
+  <swiper-item class='item' wx:for='{{txtlist}}'>
+  <view class="info">
+    <image src='/static/cun.jpg'></image>
+    <text>昵称 </text>
+    <text>于2020-04-04 15:43 {{item}}</text>
+  </view>
+  </swiper-item>
+</swiper>
+<!-- 背景 -->
+<image src='http://yjs.anei10.com/image/bg.jpg' class='bg' style="height: {{windowHeight}}px;"></image>
+
+<view class="footer">
+  <view class="Home" bindtap="homePage" bindtap="toHome">
+    <image src='/static/menu_imgs/homePage.png'></image>
+    <text>首页</text>
+  </view>
+  <view class="wrap-btn">
+  <view class='btn' bindtap="toRespectDetail" style="background-color:#795548">
+    <text>生平简介</text>
+  </view>
+  <button class='share_btn' bindtap="share" open-type="share">
+    <text>邀请好友</text>
+  </button>
+
+  
+  </view>
+
+</view>

@@ -1,0 +1,58 @@
+<!--pages/respectDetail/respectDetail.wxml-->
+<image src='/static/index_img/lwl.png' class="img"></image>
+<view>
+ <view class="jianjie">
+  <text class="bt">生平简介</text>
+  <text class="textarea">xxxxxxxxxxxxxxxxxxxx</text>
+</view>
+<view class="bt">
+  <text>相关照片</text>
+  <view class="imgGroup" >
+    <image src='/static/index_img/lwl.png' wx:for='{{imgGroup}}'></image>
+  </view>
+
+</view>
+
+<view class="note">
+  <view class="bt">
+    <text>留言</text>
+  </view>
+  <view class="list">
+    <view class="item">
+      <image src='/static/index_img/lwl.png'></image>
+      <view class='info'>
+        <view>
+          <text>长****害【留言】</text>
+        </view>
+        <view>
+          <text id='time'>2020-04-01 11：06：54</text>
+        </view>
+        <view>
+          <text>xxxxxxxx</text>
+        </view>
+
+      </view>
+    </view>
+
+
+  </view>
+</view>
+</view>
+<view class='footer' bindtap="showModal" data-statu="open">
+  <text>我要留言</text>
+</view>
+
+<!-- 遮罩层 -->
+<view class="drawer_screen" bindtap="showModal" data-statu="close" wx:if="{{showModalStatus}}"></view>
+
+<view class="modal" animation="{{animationData}}" wx:if="{{showModalStatus}}">
+<view><text>【留言】</text></view>
+<textarea placeholder="请输入留言（最多35字）" placeholder-class='placeholder' name='message' bindinput="addMessage"></textarea>
+<view><text style="color:#9E9E9E">注意:文明留言,留言内容需审核后显示</text></view>
+<view class="modal-btn">
+<view class="modal-b" bindtap="showModal" data-statu="close">取消</view>
+<view class="modal-b" style="color: green" bindtap="confirm" data-statu="close">确定</view>
+
+
+</view>
+</view>

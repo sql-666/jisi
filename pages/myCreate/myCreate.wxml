@@ -1,0 +1,49 @@
+<!--pages/myCreate/myCreate.wxml-->
+<view class='list'>
+
+  <view class="wrap-item" bindtap="toEdit" wx:for='{{list}}'>
+    <image class="respect_img" src='/static/cun.jpg'></image>
+    <view class="right">
+      <text class="bt">黎屋村寨先逝祖先</text>
+      <view class="info">
+        <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/createMan.png'></image>
+            <text>创建人:</text>
+          </view>
+          <view>
+            <text>xxx</text>
+          </view>
+        </view>
+
+        <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/lazhu.png'></image>
+            <text>上香数:</text>
+          </view>
+          <view>
+            <text>2586</text>
+          </view>
+        </view>
+        <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/flower.png'></image>
+            <text>献花数:</text>
+          </view>
+          <view>
+            <text>2586</text>
+          </view>
+        </view>
+         <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/star-o.png'></image>
+            <text>收藏人数</text>
+          </view>
+          <view>
+            <text>2586</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

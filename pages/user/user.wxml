@@ -1,0 +1,20 @@
+<!--pages/user/user.wxml-->
+<view class="head">
+<image src='/static/index_img/lwl.png'></image>
+<text>lwl</text>
+</view>
+
+<view class="list">
+<view class="item" bindtap="toCreate">
+  <image src='/static/menu_imgs/record.png'></image>
+  <view class="xian">
+    <text>我创建的</text>
+  </view>
+</view>
+<view class="item" bindtap="toFav">
+  <image src='/static/menu_imgs/star-o.png'></image>
+  <view class="xian">
+  <text>我收藏的</text>
+  </view>
+</view>
+</view>

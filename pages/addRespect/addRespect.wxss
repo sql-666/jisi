@@ -1,0 +1,73 @@
+/* pages/addRespect/addRespect.wxss */
+.img image, .imgGroup image{
+  width: 150rpx;
+  height: 120rpx;
+  border: 1rpx solid #ccc;
+  margin-right: 20rpx;
+}
+.img{
+  display: flex;
+  align-items: center;
+  
+}
+
+.btn{
+  background-color: #F6F7F8;
+  color: black;
+  border-radius: 10rpx;
+  height: 70rpx;
+  text-align: center;
+  font-size: 25rpx;
+  line-height: 70rpx;
+  padding: 0 20rpx;
+}
+
+.name, .gender, .time, .radio-group, .img, .note{
+  margin: 20rpx 30rpx;
+  padding:20rpx 0; 
+  background-color: white;
+  border-bottom: 1rpx solid #ccc;
+
+}
+.note{
+  display: flex;
+}
+.radio-group{
+
+}
+
+page{
+  background-color: white;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0rpx;
+  height: 100rpx;
+  display: flex;
+  background-color: #795548;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgGroup{
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx 30rpx;
+  padding:20rpx 0; 
+  background-color: white;
+}
+.imgGroup image{
+  margin-top: 20rpx;
+  background-color: #F6F7F8;
+}
+
+.wrap{
+  margin-bottom: 120rpx;
+}
+textarea, input{
+  width: 100%;
+}
+

@@ -1,0 +1,80 @@
+<!--pages/index/index.wxml-->
+<swiper id="banSwiper" autoplay="true" indicator-dots="true">
+  <block wx:for="{{indexBanner}}" wx:key='indexBanner'>
+    <swiper-item bindtap="toBlianjie" data-url='{{item.tapUrl}}'>
+      <image src="{{item.url}}" class="slide-image" style="width:100%;height:300rpx" mode="" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="middle">
+  <view class="btn" bindtap="add">
+    <text>我要创建缅怀馆</text>
+  </view>
+</view>
+
+<view class='list'>
+
+  <view class="wrap-item" bindtap="showModal" wx:for='{{list}}' data-statu="open">
+    <image class="respect_img" src='/static/cun.jpg'></image>
+    <view class="right">
+      <text class="bt">黎屋村寨先逝祖先</text>
+      <view class="info">
+        <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/createMan.png'></image>
+            <text>创建人:</text>
+          </view>
+          <view>
+            <text>xxx</text>
+          </view>
+        </view>
+
+        <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/lazhu.png'></image>
+            <text>上香数:</text>
+          </view>
+          <view>
+            <text>2586</text>
+          </view>
+        </view>
+        <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/flower.png'></image>
+            <text>献花数:</text>
+          </view>
+          <view>
+            <text>2586</text>
+          </view>
+        </view>
+         <view class="info-item">
+          <view class="icon-text">
+            <image src='/static/menu_imgs/star-o.png'></image>
+            <text>收藏人数</text>
+          </view>
+          <view>
+            <text>2586</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="suo">
+    <image src='/static/menu_imgs/suo.png'></image>
+    </view>
+  </view>
+</view>
+
+<!-- 遮罩层 -->
+<view class="drawer_screen" bindtap="showModal" data-statu="close" wx:if="{{showModalStatus}}"></view>
+
+<view class="modal" animation="{{animationData}}" wx:if="{{showModalStatus}}">
+<view><text>【邀请码】</text></view>
+<input placeholder="请输入邀请码" placeholder-class='placeholder' name='message' bindinput="addMessage"></input>
+<view class="modal-btn">
+<view class="modal-b" bindtap="showModal" data-statu="close">取消</view>
+<view class="modal-b" style="color: green" bindtap="confirm" data-statu="close">确定</view>
+
+
+</view>
+</view>

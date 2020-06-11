@@ -1,0 +1,63 @@
+/* pages/add/add.wxss */
+page{
+  background-color: whitesmoke;
+  
+}
+.private{
+  display: flex;
+  margin-bottom:30rpx;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0rpx;
+  height: 100rpx;
+  display: flex;
+  background-color: #795548;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.note{
+  /* margin-top: 20rpx; */
+  color: #757575;
+  font-size: 28rpx;
+  background-color: white;
+  padding: 20rpx 30rpx;
+}
+
+.description{
+  background-color: white;
+  padding: 20rpx 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.bt{
+  background-color: white;
+  padding: 20rpx 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.ma{
+  background-color: white;
+  padding: 20rpx 30rpx;
+}
+
+.addRespects{
+  margin-top: 30rpx;
+  padding: 20rpx 30rpx; 
+  background-color: white;
+  display: flex;
+  align-items: center;
+
+}
+
+.addRespects image{
+  width: 100rpx;
+  height: 100rpx;
+  /* border:1rpx solid #ccc; */
+  margin-right: 20rpx;
+  
+}

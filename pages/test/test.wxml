@@ -1,0 +1,10 @@
+<!--pages/test/test.wxml-->
+<swiper class='swiper-box' autoplay='{{true}}' interval='2000' vertical='{{true}}' circular='{{true}}'>
+  <swiper-item class='item' wx:for='{{txtlist}}'>
+  <view class="info">
+    <image src='/static/cun.jpg'></image>
+    <text>昵称 </text>
+    <text>于2020-04-04 15:43 {{item}}</text>
+  </view>
+  </swiper-item>
+</swiper>

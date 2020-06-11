@@ -1,0 +1,76 @@
+.drawer_screen{width: 100%;height: 100%;position: fixed;top: 0;left: 0;z-index: 100;background-color: #000;opacity: 0.3;overflow: hidden;}
+.modal .column{
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx 20rpx;
+  color: #757575;
+  letter-spacing: 0.05rpx;
+}
+
+.column .atrri-bt{
+  font-size: 20rpx;
+  color: #757575
+}
+.modal{width: 100%;position: fixed;bottom: 0;z-index: 111;background-color: #fff;height: 50%;}
+.modal-close{font-size: 40rpx;color: #5d5d5d;margin: 10rpx 10rpx 0 0;}
+.modal-title image{width: 180rpx;height: 214rpx;position: absolute;top: -62rpx;left:24rpx;border-radius: 10rpx;}
+.modal .modal-title{padding-left:248rpx;border-bottom: 0.01rpx solid #eee;min-height: 100rpx;}
+.modal .goods-price{font-size: 30rpx;color: #e02e24}
+.modal .modal-body{padding:20rpx 24rpx; }
+.modal .prop{border-bottom: 1px solid #ccc}
+.modal .prop-name{padding: 20rpx 0;font-size: 28rpx;}
+.modal .prop>text{display: inline-block;background-color: #f2f2f2;border-radius: 10rpx;font-size: 28rpx;line-height: 56rpx;padding: 0 24rpx;margin: 20rpx 30rpx 20rpx 0;}
+
+.modal .btn{background-color: red;color: #fff;position: absolute;bottom: 0;width: 100%;text-align: center;line-height: 88rpx;border-radius: 0}
+
+.pull-left{background: #fff;padding: 20rpx 24rpx;font-size:22rpx;text-align:end;display:flex;
+padding-left:400rpx;
+}
+
+.atrri1, .atrri2{
+  font-size: 20rpx;
+  display: flex;
+  padding: 10rpx 20rpx;
+}
+
+.column .atrri1  text{
+  font-size: 22rpx;
+}
+.column .atrri2  text{
+  font-size: 22rpx;
+}
+
+.atrri1 view, .atrri2 view{
+  border: 0.01rpx solid #9E9E9E;
+  margin: 5rpx 10rpx;
+  padding: 5rpx;
+  border-radius: 20rpx;
+  width: 100rpx;
+  text-align: center;
+}
+
+.modal .addNum{
+  border: 0.01rpx solid #BDBDBD;
+  padding:5rpx 15rpx;
+  line-height:70rpx;
+
+}
+
+.buy-value{
+  font-size: 28rpx;
+  width: 100rpx;
+  text-align:center;
+  line-height:75rpx;
+  
+
+}
+
+#aactiveColor{
+  border:0.01rpx solid #e02e24; 
+  color:#e02e24;
+}
+
+#aactiveTc{
+  border:0.01rpx solid #e02e24; 
+  color:#e02e24;
+}
